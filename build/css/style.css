@@ -1,0 +1,74 @@
+#menu ul li {
+	display: inline;
+}
+
+#menu ul a {
+	width: 110px;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: #A61E22;
+}
+
+.footer_01 {
+	float: left;
+	width: 237.5px;
+	height: 160px;
+	background-color: #9C9C9C;
+	color: white;
+}
+
+#lien_he_phai .do_rong {
+	float: left;
+	width: 130px;
+}
+
+/* Slideshow container */
+#slide {
+  max-width: 950px;
+  position: relative;
+  margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+/* Định dạng nội dung Caption */
+.text {
+  color: red;
+  font-size: 25px;
+  padding: 28px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
