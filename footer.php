@@ -4,8 +4,8 @@
     <footer id="footer" class="hoc clear"> 
       
       <div class="one_quarter first">
-        <h6 class="heading">HoangAnhQuy</h6>
-        <p>Địa chỉ liên hệ: TP HCM.</p>
+        <h6 class="heading">Hoàng Anh Quý</h6>
+        <p>Địa chỉ liên hệ: Quận Gò Vấp, TP HCM.</p>
         <p>So điện thoại: 7777777777.</p>
       </div>
       <div class="one_quarter">
