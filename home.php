@@ -2,7 +2,7 @@
 require('header.php'); ?>
 
 
-<div class="wrapper row3" style="margin-top: -120px">
+<div class="wrapper row3" style="margin-top: 0px">
   <main class="hoc container clear"> 
 
     
