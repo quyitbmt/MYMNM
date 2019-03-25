@@ -21,7 +21,8 @@
   <header id="header" class="hoc clear"> 
     
     <div id="logo" class="fl_left">
-      <h1><a href="index.php">Hoàng Anh Quý</a></h1>
+      <!--<h1><a href="index.php">Hoàng Anh Quý</a></h1>-->
+      <a href="index.php" ><img src="image/logo/gameshop.jpg" style="width: 200px; height: 100px"></a>
     </div>
     <div id="quickinfo" class="fl_right">
       <ul class="nospace inline">

@@ -10,7 +10,7 @@
       </div>
       <div class="one_quarter">
         <h6 class="heading">CONTACT</h6>
-      <!--   <nav>
+      <nav>
           <ul class="nospace">
             <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
             <li><a href="#">About</a></li>
@@ -20,7 +20,7 @@
             <li><a href="#">Cookies</a></li>
             <li><a href="#">Disclaimer</a></li>
           </ul>
-        </nav> -->
+        </nav>
         <ul class="faico clear">
           <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
           <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -31,8 +31,7 @@
         </ul>
       </div>
       <div class="one_quarter">
-        <h6 class="heading">
-GAME</h6>
+        <h6 class="heading">GAME</h6>
         <article>
           <h2 class="nospace font-x1"><a href="#">Best game of the  year</a></h2>
           <time class="font-xs" datetime="2020-04-06">Friday, 6<sup>th</sup> April 2020</time>
