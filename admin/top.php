@@ -8,7 +8,7 @@
               </div>
               <div class="profile_info">
                 <span>Xin chào,</span>
-               <a href="home.php"> <h2>HoangAnhQuy</h2></a>
+               <a href="home.php"> <h2>Hoang Anh Quy</h2></a>
               </div>
             </div>
             <!-- /menu profile quick info -->
