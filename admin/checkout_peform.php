@@ -22,7 +22,7 @@
         echo '
             <script type="text/javascript">
                 alert("Mua hàng thành công");
-                window.location.href="http://localhost:8080/MNM/webbangame/admin/?page=home";
+                window.location.href="http://localhost:8080/webbanhang/admin/?page=home";
             </script>';
     }
  ?>

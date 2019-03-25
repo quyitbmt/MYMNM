@@ -24,7 +24,7 @@
 		echo '
 		<script type="text/javascript">
 			alert("Sửa danh mục lỗi. Vui lòng điền đầy đủ thông tin!!!");
-			window.location.href="http://localhost:8080/MNM/webbangame/admin/change_product_sale&id=$id";
+			window.location.href="http://localhost:8080/webbanhang/admin/change_product_sale&id=$id";
 		</script>';
 	} else {
 		$sql = "UPDATE tbl_product_sale SET name='$name', masp='$masp', price='$price', image='$image',category='$category',chitiet='$chitiet',giamgia='$giamgia'   WHERE id='$id'";
@@ -35,6 +35,6 @@
 	echo '
 		<script type="text/javascript">
 			alert("Sửa sản phẩm thành công!!!");
-			window.location.href="http://localhost:8080/MNM/webbangame/admin/list_product_sale.php";
+			window.location.href="http://localhost:8080/webbanhang/admin/list_product_sale.php";
 		</script>';
 ;?>

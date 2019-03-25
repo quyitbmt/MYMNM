@@ -15,6 +15,6 @@
     echo '
         <script type="text/javascript">
             alert("Xóa bài viết thành công!!!");
-            window.location.href="http://localhost:8080/MNM/webbangame/admin/list_post.php";
+            window.location.href="http://localhost:8080/webbanhang/admin/list_post.php";
         </script>';
 ;?>

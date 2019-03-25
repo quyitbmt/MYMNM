@@ -26,6 +26,6 @@
 	echo '
 		<script type="text/javascript">
 			alert("Thêm mới sản phẩm thành công!!!");
-			window.location.href="http://localhost:8080/MNM/webbangame/admin/list_product_sale.php";
+			window.location.href="http://localhost:8080/webbanhang/admin/list_product_sale.php";
 		</script>';
 ;?>

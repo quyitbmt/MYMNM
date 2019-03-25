@@ -21,6 +21,6 @@
 	echo '
 		<script type="text/javascript">
 			alert("Thêm mới banner thành công!!!");
-			window.location.href="http://localhost:8080/MNM/webbangame/admin/list_banner.php";
+			window.location.href="http://localhost:8080/webbanhang/admin/list_banner.php";
 		</script>';
 ;?>
