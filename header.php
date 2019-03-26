@@ -127,44 +127,20 @@
 
 
     <section class="hoc container clear">
-        <!--<div class="neoslideshow" >
         <?php 
         include("config/dbconfig.php");
-        $sql = "SELECT * from banner  where image order by id ";
+        $sql = "SELECT * from banner  where image order by id ;";
         $run = mysqli_query($conn, $sql);
         $i = 0;
         while ($row = mysqli_fetch_array($run)) {
         $i++;
         ;?>
-  
-  <img src="index.php/../image/banner/<?php echo $row['image']?>" style="width: 975px"/>
-    <?php } ?>
-<script type="text/javascript">
-  $(function() {
-    $('.neoslideshow img:gt(0)').hide();
-    setInterval(function(){
-      $('.neoslideshow :first-child').fadeOut()
-         .next('img').fadeIn()
-         .end().appendTo('.neoslideshow');}, 
-      2000);
-})
-</script>-->
-
         <div class="mySlides fade">
-            <img src="image/banner/0123456789.jpg" style="width:100%">
+            <img src="image/banner/<?php echo $row['image']?>" style="width: 100%">
             <div class="text">Caption Text</div>
         </div>
         
-        <div class="mySlides fade">
-            <img src="image/banner/123456789.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
-        <!--
-        <div class="mySlides fade">
-            <img src="img_mountains_wide.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-        -->
+        <?php } ?>
         <br>
         <div style="text-align:center">
             <span class="dot"></span>
