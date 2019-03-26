@@ -1,6 +1,5 @@
 .neoslideshow {position:relative; width:1200px; height:500px;}
 .neoslideshow img {position:absolute;left:0; top:0;}
-<style>
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -61,4 +60,3 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-</style>
