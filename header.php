@@ -129,7 +129,7 @@
     <section class="hoc container clear">
         <?php 
         include("config/dbconfig.php");
-        $sql = "SELECT * from banner  where image order by id ;";
+        $sql = "SELECT image FROM banner LIMIT 3;";
         $run = mysqli_query($conn, $sql);
         $i = 0;
         while ($row = mysqli_fetch_array($run)) {
@@ -163,10 +163,10 @@
                     slideIndex = 1
                 }
                 for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
+                    dots[i].className = dots[i].className.replace(" showing", "");
                 }
                 slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
+                dots[slideIndex - 1].className += " showing";
                 setTimeout(showSlides, 2000); // Change image every 2 seconds
             }
 
