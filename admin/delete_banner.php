@@ -7,9 +7,18 @@
 	include("../config/dbconfig.php");
 
 	// Xóa dữ liệu trong bảng		
-	$sql = "delete from banner where id = '".$id."'";
+	$sql = "select * from banner where id = '".$id."'";
 
 	// Cho thực thi câu lệnh SQL trên
+	$run = mysqli_query($conn,$sql);
+
+	while ($row = mysqli_fetch_array($run)) {
+		# code...
+		unlink("./image/banner/'".$row['image']."'");
+	}
+	//Xoa du lieu trong bang
+	$sql = "delete from banner where id = '".$id."'";
+
 	$run = mysqli_query($conn,$sql);
 	echo '
 		<script type="text/javascript">
