@@ -129,7 +129,7 @@
     <section class="hoc container clear">
         <?php 
         include("config/dbconfig.php");
-        $sql = "SELECT image FROM banner LIMIT 3;";
+        $sql = "SELECT image FROM banner ORDER BY id DESC LIMIT 3;";
         $run = mysqli_query($conn, $sql);
         $i = 0;
         while ($row = mysqli_fetch_array($run)) {
